@@ -2,7 +2,7 @@ import { Component } from "react";
 import LanguageContext from "../context/LanguageContext";
 
 class Field extends Component {
-    renderText(language){
+    renderText({language}){
         return language==="english"?"Name":"Ad";
     }
 
